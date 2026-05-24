@@ -8,9 +8,11 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/React-19-20232A?style=flat-square&logo=react" />
-  <img src="https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript" />
-  <img src="https://img.shields.io/badge/Vitest-testing-6E9F18?style=flat-square" />
+  <img src="https://img.shields.io/badge/React-19.2-20232A?style=flat-square&logo=react" />
+  <img src="https://img.shields.io/badge/TypeScript-5.9-3178C6?style=flat-square&logo=typescript" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-4.2-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vitest-4.1-6E9F18?style=flat-square&logo=vitest" />
+  <img src="https://github.com/andrefv3/kynetic-app/actions/workflows/ci.yml/badge.svg" alt="Build Status" />
 </p>
 
 <p align="center">
@@ -19,9 +21,13 @@
   Kynetic eliminates decision fatigue and focuses your cognitive load where it matters most.
 </p>
 
+<p align="center">
+  <a href="https://kynetic-tasks.vercel.app/"><strong>🚀 Live Demo</strong></a>
+</p>
+
 ---
 
-## Overview
+## 📋 Overview
 
 Kynetic provides a streamlined environment for organizing and tracking tasks efficiently. The application prioritizes clarity, responsiveness, and predictable behavior, ensuring a consistent experience across different usage scenarios.
 
@@ -31,13 +37,11 @@ The codebase is structured to support long-term evolution, making it easy to ext
 
 ## 🏗️ Architecture & Engineering
 
-Designed with a **domain-driven approach**, the codebase prioritizes modularity and predictable state transitions.
+The application is built on a **domain-driven, modular architecture** designed for high scalability and clear separation of concerns.
 
-### Engineering Principles
--   **Atomic Design Implementation** — Reusable, testable UI components.
--   **Static Type Safety** — End-to-end type integrity with TypeScript.
--   **Asynchronous Excellence** — Optimized data fetching with React Query.
--   **Zero-Lag UI** — Optimistic updates for a fluid, "local-first" feel.
+- **Frontend Core:** Utilizes an **Atomic Design** system to ensure component reusability and isolated testing. We leverage **Zustand** for performant global state sharding and **React Query** as the primary data-fetching layer, providing a seamless "local-first" experience with optimistic UI updates.
+- **Backend Infrastructure:** A robust **NestJS** backend manages business logic, interacting with a **PostgreSQL** database through **Prisma ORM**. This setup ensures end-to-end type safety and efficient database queries.
+- **Continuous Quality:** Every push is validated through a **CI/CD pipeline** (GitHub Actions), maintaining a rigorous standard of code quality with **~85% test coverage** via Vitest.
 
 ---
 
@@ -51,7 +55,7 @@ Designed with a **domain-driven approach**, the codebase prioritizes modularity 
 | **Quality** | Vitest, Testing Library, ESLint (Strict) |
 ---
 
-## Features
+## ⚡ Features
 
 - Task creation, editing, and deletion  
 - Responsive and accessible interface  
@@ -69,35 +73,34 @@ Designed with a **domain-driven approach**, the codebase prioritizes modularity 
 
 ---
 
-## Development
+## 💻 Development
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Testing
+## 🧪 Testing & Quality
+We maintain a high standard of code reliability through automated testing suites.
 
 ```bash
 npm run test        # Unit & Integration
 npm run test:ui     # Visual Test Runner
 ```
 ---
+> **Coverage:** Currently maintaining **~85% test coverage** across core business logic, ensuring regression-free deployments.
 
 ## 🎨 Design Approach
+The interface follows a **minimalist, intent-based design**. By stripping away unnecessary chrome, we maximize the focus on the task at hand. Every component is built for composability, ensuring that the application remains maintainable as features scale.
 
-The interface is designed to be minimal yet functional, avoiding unnecessary complexity while maintaining flexibility. Each component is built to be composable, reusable, and easy to reason about, supporting long-term maintainability.
+## 🔮 Roadmap
+- [ ] **Kynetic AI Integration**: NLP for automatic task scoring.
+- [ ] **Predictive Scheduling**: ML-driven focus block suggestions.
+- [ ] **Real-time Sync**: Collaborative execution environments.
 
 ---
 
-## 🔮 Roadmap: The Evolution to Autonomous Flow
-
-- [ ] **Kynetic AI Integration**: Natural Language Processing for automatic task scoring.
-- [ ] **Predictive Scheduling**: Machine learning to suggest focus blocks based on historical velocity.
-- [ ] **WebSockets Sync**: Real-time collaborative "war rooms" for team-level execution.
----
-
-## Future Direction
+## 🔭 Future Direction
 
 - Introduce more advanced state management patterns as the application grows in complexity  
 - Strengthen accessibility compliance (a11y) to ensure a more inclusive user experience  
@@ -106,7 +109,6 @@ The interface is designed to be minimal yet functional, avoiding unnecessary com
 
 ---
 
-## Author
-
-**Andrés Felipe Vega** – Developer  
+## 👤 Author
+**Andrés Felipe Vega** – Full Stack Developer  
 [GitHub](https://www.github.com/andrefv3) | [LinkedIn](https://www.linkedin.com/in/andrefv3)
