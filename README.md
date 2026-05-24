@@ -7,13 +7,32 @@
   <strong>The Intelligence Layer for High-Velocity Execution</strong>
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/React-19.2-20232A?style=flat-square&logo=react" />
-  <img src="https://img.shields.io/badge/TypeScript-5.9-3178C6?style=flat-square&logo=typescript" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-4.2-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vitest-4.1-6E9F18?style=flat-square&logo=vitest" />
-  <img src="https://github.com/andrefv3/kynetic-app/actions/workflows/ci.yml/badge.svg" alt="Build Status" />
-</p>
+<div align="center">
+  <p><strong>A domain-driven, modular architecture designed for high scalability and clear separation of concerns.</strong></p>
+
+  <table style="display: inline-table; border: none; text-align: center;">
+    <tr>
+      <td style="border: none; padding: 10px;">
+        <strong>Core Stack</strong><br/>
+        <img src="https://img.shields.io/badge/React-19.2-20232A?style=flat-square&logo=react" />
+        <img src="https://img.shields.io/badge/TypeScript-5.9-3178C6?style=flat-square&logo=typescript" />
+        <img src="https://img.shields.io/badge/Tailwind_CSS-4.2-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" />
+      </td>
+      <td style="border: none; padding: 10px;">
+        <strong>Quality & CI</strong><br/>
+        <img src="https://img.shields.io/badge/Vitest-4.1-6E9F18?style=flat-square&logo=vitest" />
+        <a href="https://github.com/andrefv3/kynetic-app/actions">
+          <img src="https://github.com/andrefv3/kynetic-app/actions/workflows/ci.yml/badge.svg" />
+        </a>
+      </td>
+      <td style="border: none; padding: 10px;">
+        <strong>Infrastructure</strong><br/>
+        <img src="https://img.shields.io/badge/Vite-8.0-646CFF?style=flat-square&logo=vite" />
+        <img src="https://img.shields.io/badge/Vercel-Deployment-000000?style=flat-square&logo=vercel" />
+      </td>
+    </tr>
+  </table>
+</div>
 
 <p align="center">
   Kynetic is not just a task manager; it's a <strong>priority engine</strong>. 
